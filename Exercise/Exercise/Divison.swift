@@ -1,3 +1,4 @@
+import CoreGraphics
 func Division(num: Int) -> String {
     return num % 7 == 0
         ? "\(num) is divisible by 7"
@@ -133,3 +134,25 @@ func SumOfCube(Number : Int) -> Double {
     return res
 }
 
+func MyCosine(_ x: Double , threshold : Double = pow(10,-6)) -> Double {
+    var n = 0.0;
+    var result = 0.0
+    var term : Double = .infinity
+    var sign = 1.0
+    
+    var evenPowersOfX = 1.0
+    var evenFactorial = 1.0
+    
+    while (abs(term) >= threshold) {
+        term = sign * evenPowersOfX/evenFactorial
+        result += term
+        
+        sign *= -1
+        
+        evenPowersOfX *= (x*x)
+        n += 2
+        evenFactorial += n*(n-1)
+    }
+    
+    return result
+}

@@ -1,4 +1,4 @@
-
+import Foundation
 func mainDiv() {
     print(Division(num: 7))
     print(DivisibleByD(number: 14, divisor: 2))
@@ -15,6 +15,17 @@ func mainDiv() {
     for i in 1..<10{
         print(TraingleNumberSquared(Number: i))
         print(SumOfCube(Number: i))
+    }
+    print("cosine")
+    let m = 18.0
+    
+    for i in stride(from: 0, to: m, by: 1){
+        let angle: Double = (2 * Double.pi * i)
+        
+        print(cos(angle))
+        print(MyCosine(angle))
+        
+        print("")
     }
 }
 
