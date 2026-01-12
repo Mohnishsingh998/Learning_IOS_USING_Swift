@@ -52,3 +52,4 @@ print(str1)
 let spaced = str1.trimmingCharacters(in: .whitespaces)
 
 print(spaced)
+

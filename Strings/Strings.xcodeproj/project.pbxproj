@@ -19,10 +19,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C4584DCC2F014E5E007298F1 /* Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strings; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4584DCC2F014E5E007298F1 /* Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Strings; path = "/Users/mohnishsinghyadav/Desktop/devloper/X-code/Strings/build/Debug/Strings"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C4064C062F15750F002F46CF /* Struct */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Struct;
+			sourceTree = "<group>";
+		};
 		C4584DCE2F014E5E007298F1 /* Strings */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Strings;
@@ -45,16 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				C4584DCE2F014E5E007298F1 /* Strings */,
-				C4584DCD2F014E5E007298F1 /* Products */,
+				C4064C062F15750F002F46CF /* Struct */,
 			);
-			sourceTree = "<group>";
-		};
-		C4584DCD2F014E5E007298F1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C4584DCC2F014E5E007298F1 /* Strings */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +70,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				C4064C062F15750F002F46CF /* Struct */,
 				C4584DCE2F014E5E007298F1 /* Strings */,
 			);
 			name = Strings;
@@ -107,7 +105,7 @@
 			mainGroup = C4584DC32F014E5E007298F1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C4584DCD2F014E5E007298F1 /* Products */;
+			productRefGroup = C4584DC32F014E5E007298F1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

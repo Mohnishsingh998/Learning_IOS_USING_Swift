@@ -1,5 +1,11 @@
+//: [Previous](@previous)
+
 import Foundation
+
+var greeting = "Hello, playground"
+
 //: [Next](@next)
+// now we will understand about the function
 //Learing about the structs
 /*
  
@@ -20,4 +26,6 @@ let myobject : String = "Hello world!"
 
 let myQuiz : Quiz = Quiz(title: myobject, dateShedule: .now)
 
-print(myQuiz.dateShedule)
+print(myQuiz.title)
+
+print("Hello")
